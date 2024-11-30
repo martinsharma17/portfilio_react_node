@@ -14,7 +14,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true, // For static exports
-    domains: ['media2.dev.to'], // Add external domains here
+    // domains: ['media2.dev.to'], // Add external domains here
   },
   assetPrefix: isProd ? '/portfolio_react_node/' : '',
   basePath: isProd ? '/portfolio_react_node' : '',
